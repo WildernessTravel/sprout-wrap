@@ -60,15 +60,12 @@ node_attributes:
       tile_size: 35
       magnification: false
   homebrew:
-    casks:
-      - java
-
     formulas:
       - ag
       - autossh
       - cdargs
       #- chromedriver
-      - elasticsearch
+      #- elasticsearch
       #- graphviz
       - htop
       #- imagemagick
@@ -119,6 +116,7 @@ node_attributes:
       # - google-hangouts
       # - handbrake
       - itsycal
+      - java
       # - kaleidoscope
       # - kindle
       # - lastpass
