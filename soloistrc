@@ -32,7 +32,7 @@ recipes:
 - sprout-postgresql
 
 # apps (editors)
-- sprout-osx-apps::sublime_text
+#- sprout-osx-apps::sublime_text
 #- sprout-osx-apps::macvim
 #- sprout-jetbrains-editors::rubymine
 
