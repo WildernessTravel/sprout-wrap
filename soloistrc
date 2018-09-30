@@ -116,6 +116,7 @@ node_attributes:
       # - google-hangouts
       # - handbrake
       - itsycal
+      - java
       # - kaleidoscope
       # - kindle
       # - lastpass
