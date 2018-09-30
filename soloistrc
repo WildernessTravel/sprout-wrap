@@ -87,7 +87,7 @@ node_attributes:
       - watch
       - wget
       - rbenv-binstubs
-      - rbenv-gem-rehash
+      #- rbenv-gem-rehash
 
     casks:
       - ngrok
