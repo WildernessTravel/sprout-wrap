@@ -5,7 +5,7 @@ recipes:
 - sprout-base::bash_it
 - homebrew
 - homebrew::install_taps
-- homebrew::install_formulas
+# - homebrew::install_formulas
 - homebrew::install_casks
 
 # apps
@@ -94,25 +94,25 @@ node_attributes:
       - yarn
 
     casks:
-      - 1password
-      - path-finder
+      #- 1password
+      #- path-finder
       # - adobe-reader
-      - alfred
+      #- alfred
       # - aviator
-      - beyond-compare
+      #- beyond-compare
       # - ccmenu
       # - dashlane
-      - divvy
-      - dropbox
-      - epic
-      - firefox
-      - flux
+      #- divvy
+      #- dropbox
+      #- epic
+      #- firefox
+      #- flux
       # - flycut
-      - rowanj-gitx
-      - github
-      - google-chrome
-      - itsycal
-      - java8
+      #- rowanj-gitx
+      #- github
+      #- google-chrome
+      #- itsycal
+      #- java
       # - kaleidoscope
       # - kindle
       # - lastpass
