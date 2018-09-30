@@ -65,7 +65,6 @@ node_attributes:
       - autossh
       - cdargs
       #- 
-      - curl --with-openssl
       #- elasticsearch
       #- graphviz
       - htop
