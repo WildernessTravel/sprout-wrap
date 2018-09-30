@@ -32,28 +32,23 @@ recipes:
 - sprout-postgresql
 
 # apps (editors)
-- sprout-jetbrains-editors::rubymine
+- sprout-osx-apps::sublime_text
+#- sprout-osx-apps::macvim
+#- sprout-jetbrains-editors::rubymine
 
 node_attributes:
+  machine_domain: nile
   sprout:
     git:
-      domain: pivotal.io
+      domain: wildernesstravel.com
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: vrn
+          name: Vince Nibler
+          username: vince
       projects:
         -
           name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+          url: https://github.com/WildernessTravel/sprout-wrap.git
     terminal:
       default_profile: 'Pro'
     settings:
@@ -66,18 +61,75 @@ node_attributes:
       magnification: false
   homebrew:
     formulas:
+      - name: universal-ctags
+        head: true
       - ag
+      - autossh
+      - cdargs
+      - ctags-exuberant
+      - ag
+      - chromedriver
+      - graphviz
+      - imagemagick
+      - kak
+      - nginx
+      - nmap
       - node
       - pstree
-      - rbenv-binstubs
+      - qt
+      - siege
+      - sphinx
+      - ssh-copy-id
+      - sublhandler
+      - the_silver_searcher
       - tmux
       - tree
       - vim
       - watch
       - wget
+      - rbenv-binstubs
+      - rbenv-gem-rehash
+
     casks:
+      - ngrok
+      - 1password
+      - path-finder
+      - adobe-reader
+      - alfred
+      # - aviator
+      - beyond-compare
+      # - ccmenu
+      # - dashlane
+      - divvy
+      - dropbox
+      - epic
       - firefox
-      - flycut
+      - flux
+      # - flycut
+      - rowanj-gitx
+      - github
+      - github-desktop
       - google-chrome
-      - google-hangouts
-      - vagrant
+      - google-drive
+      # - google-hangouts
+      # - handbrake
+      - itsycal
+      # - kaleidoscope
+      - kindle
+      # - lastpass
+      - lxvii
+      - macvim
+      - navicat-premium
+      - navicat-for-mysql
+      - onepassword
+      - rcdefaultapp
+      - skype
+      - slack
+      - utorrent
+      # - vagrant
+      # - virtualbox
+      - vlc
+      - wkhtmltopdf
+      - xquartz
+      - xscope
+      - wkhtmltopdf
