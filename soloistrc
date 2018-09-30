@@ -60,6 +60,9 @@ node_attributes:
       tile_size: 35
       magnification: false
   homebrew:
+    casks:
+      - java
+
     formulas:
       - ag
       - autossh
@@ -116,7 +119,6 @@ node_attributes:
       # - google-hangouts
       # - handbrake
       - itsycal
-      - java
       # - kaleidoscope
       # - kindle
       # - lastpass
