@@ -64,7 +64,8 @@ node_attributes:
       - ag
       - autossh
       - cdargs
-      #- chromedriver
+      #- 
+      - curl --with-openssl
       #- elasticsearch
       #- graphviz
       - htop
@@ -110,11 +111,7 @@ node_attributes:
       # - flycut
       - rowanj-gitx
       - github
-      # - github-desktop
       - google-chrome
-      # - google-drive
-      # - google-hangouts
-      # - handbrake
       - itsycal
       - java
       # - kaleidoscope
