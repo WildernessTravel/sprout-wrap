@@ -9,8 +9,8 @@ recipes:
 - homebrew::install_casks
 
 # apps
-- sprout-osx-apps::iterm2
-- sprout-osx-apps::shiftit
+# - sprout-osx-apps::iterm2
+# - sprout-osx-apps::shiftit
 
 # settings
 - sprout-osx-settings
@@ -29,7 +29,7 @@ recipes:
 - sprout-rbenv
 - sprout-ruby
 - sprout-mysql
-- sprout-postgresql
+# - sprout-postgresql
 
 # apps (editors)
 #- sprout-osx-apps::sublime_text
@@ -61,30 +61,29 @@ node_attributes:
       magnification: false
   homebrew:
     formulas:
-      - name: universal-ctags
-        head: true
+      #- name: universal-ctags
+      #  head: true
       - ag
       - autossh
       - cdargs
-      - ctags-exuberant
-      - ag
-      - chromedriver
-      - graphviz
-      - imagemagick
-      - kak
-      - nginx
+      #- ctags-exuberant
+      #- chromedriver
+      #- graphviz
+      #- imagemagick
+      #- kak
+      #- nginx
       - nmap
       - node
       - pstree
-      - qt
-      - siege
-      - sphinx
+      #- qt
+      #- siege
+      #- sphinx
       - ssh-copy-id
-      - sublhandler
+      #- sublhandler
       - the_silver_searcher
-      - tmux
+      #- tmux
       - tree
-      - vim
+      # - vim
       - watch
       - wget
       - rbenv-binstubs
@@ -107,29 +106,29 @@ node_attributes:
       - flux
       # - flycut
       - rowanj-gitx
-      - github
-      - github-desktop
+      # - github
+      # - github-desktop
       - google-chrome
-      - google-drive
+      # - google-drive
       # - google-hangouts
       # - handbrake
       - itsycal
       # - kaleidoscope
-      - kindle
+      # - kindle
       # - lastpass
       - lxvii
-      - macvim
+      # - macvim
       - navicat-premium
-      - navicat-for-mysql
-      - onepassword
-      - rcdefaultapp
+      # - navicat-for-mysql
+      # - onepassword
+      # - rcdefaultapp
       - skype
       - slack
-      - utorrent
+      # - utorrent
       # - vagrant
       # - virtualbox
       - vlc
       - wkhtmltopdf
-      - xquartz
-      - xscope
+      # - xquartz
+      # - xscope
       - wkhtmltopdf
