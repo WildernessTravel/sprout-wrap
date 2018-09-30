@@ -112,7 +112,7 @@ node_attributes:
       - github
       - google-chrome
       - itsycal
-      - java
+      - java8
       # - kaleidoscope
       # - kindle
       # - lastpass
