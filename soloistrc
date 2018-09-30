@@ -93,7 +93,7 @@ node_attributes:
       - ngrok
       - 1password
       - path-finder
-      - adobe-reader
+      # - adobe-reader
       - alfred
       # - aviator
       - beyond-compare
