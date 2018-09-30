@@ -61,21 +61,24 @@ node_attributes:
       magnification: false
   homebrew:
     formulas:
-      #- name: universal-ctags
-      #  head: true
       - ag
       - autossh
       - cdargs
-      #- ctags-exuberant
       #- chromedriver
+      - elasticsearch
       #- graphviz
+      - htop
       #- imagemagick
-      #- kak
+      #- kakoune
+      #- kibana
+      #- logstash
+      - memcached
       #- nginx
       - nmap
       - node
       - pstree
       #- qt
+      - redis
       #- siege
       #- sphinx
       - ssh-copy-id
@@ -88,9 +91,9 @@ node_attributes:
       - wget
       - rbenv-binstubs
       #- rbenv-gem-rehash
+      - yarn
 
     casks:
-      - ngrok
       - 1password
       - path-finder
       # - adobe-reader
@@ -106,7 +109,7 @@ node_attributes:
       - flux
       # - flycut
       - rowanj-gitx
-      # - github
+      - github
       # - github-desktop
       - google-chrome
       # - google-drive
@@ -120,10 +123,11 @@ node_attributes:
       # - macvim
       - navicat-premium
       # - navicat-for-mysql
-      # - onepassword
+      - ngrok
       # - rcdefaultapp
-      - skype
+      # - skype
       - slack
+      - spotify
       # - utorrent
       # - vagrant
       # - virtualbox
